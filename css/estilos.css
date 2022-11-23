@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: beige;
+}
+
+header{
+    background-color: gray;
+    height: auto;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+}
+
+.carrito li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.topMenu{
+    list-style-type: none;
+}
+
+.topMenu li{
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 4rem;
+    vertical-align: middle;
+}
+
+.topMenu :hover:not(img){
+    text-shadow: 1px 1px 1px;
+}
+
+.topMenu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.divTopMenu{
+    text-align: center;
+}
+
+.divBotonesCarrito{
+    text-align: right;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 4rem;
+    margin-left: 40px;
+}
+
+h2{
+    font-size: 3rem;
+    margin-left: 40px;
+}
+
+.imagenBienvenida{
+    text-align: center;
+}
+
+.parrafoBienvenida{
+    font-size: 3rem;
+    text-align: justify;
+    padding: 2rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    margin-bottom: 5%;
+    margin-top: 1%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.parrafos p{
+    font-size: 2rem;
+    text-align: left;
+    padding: 2rem;
+}
+
+.listaBeneficios{
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+
+.listaBeneficios li{
+    padding: 3px;
+}
+
+.listaFaqs{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 70%;
+}
+
+table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tituloTablaProductos{
+    font-size: 3rem;
+    text-align: left;
+}
+
+.subtituloTablaProductos{
+    font-size: 2rem;
+    text-align: left;
+}
+
+.tablaProductos p{
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.tablaProductos img{
+    align-content: right;
+}
+
+.tablaNosotros{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+}
+
+.tablaNosotros tr td img{
+    width: 70%;
+    padding: 7%;
+}
+
+.descripcionNosotros{
+    font-size: 3rem;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.copyright{
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.redes{
+    margin-left: 10px;
+    position: fixed;
+    top: 40%;
+    background-color: rgb(24, 24, 24);
+    width: 25px;
+}
+.redes li{
+    list-style: none;
+    padding: 4px;
+}
