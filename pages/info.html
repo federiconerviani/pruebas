@@ -1,81 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Valhalla Elixirs - Info</title>
-</head>
-<body>
-        <header><!--El header quiero que sea menos alto. Supongo que con flex y grid lo soluciono ya que puedo hacer
-            que se superpongan los componentes.-->
-            <div class="divBotonesCarrito">
-            <ul class="carrito">
-                <li><a href=""><img src="../assests/imagenes/cart.png" alt="Carrito"></a></li>
-                <li><a href=""><img src="../assests/imagenes/lupa.png" alt="Búsqueda"></a></li>
-                <li><a href=""><img src="../assests/imagenes/perfil.png" alt="Perfil"></a></li>
-            </ul>
-            </div>
-            <div class="divTopMenu">
-            <ul class="topMenu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Info</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><img src="../assests/imagenes/logo1.png" alt="Logo"></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./faqs.html">FAQs</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-            </div>
-            </header>
-            <ul class="redes">
-                <li><a href="https://www.facebook.com/federiconerviani/" target="_blank"><img src="../assests/imagenes/facebook-icon-18x18.png" alt="Facebook"></a></li>
-                <li><a href="https://www.instagram.com/federiconerviani/" target="_blank"><img src="../assests/imagenes/instagram-icon-18x18.png" alt="Instagram"></a></li>
-                <li><a href="https://twitter.com/" target="_blank"><img src="../assests/imagenes/twitter-icon-18x18.png" alt="Twitter"></a></li>
-            </ul>
-        <main>
-            <h1>¿Qué son los hongos?</h1>
-                <br>
-                <section class="parrafos">
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis deserunt voluptatibus, exercitationem tenetur quisquam accusamus! Corporis eos neque blanditiis facilis ea molestiae inventore quisquam voluptatibus nemo eaque, adipisci ut perferendis.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deserunt aliquid, amet eos cupiditate corrupti voluptates minus quia, rem alias fugiat accusantium placeat rerum, sint esse consectetur delectus? Nisi, nostrum?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deserunt aliquid, amet eos cupiditate corrupti voluptates minus quia, rem alias fugiat accusantium placeat rerum, sint esse consectetur delectus? Nisi, nostrum?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deserunt aliquid, amet eos cupiditate corrupti voluptates minus quia, rem alias fugiat accusantium placeat rerum, sint esse consectetur delectus? Nisi, nostrum?
-                    </p>
-                </section>
-            <h2>Extracto de hongos</h2>
-                <section class="parrafos">
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident animi in quasi eius quisquam magnam accusamus voluptatum sunt, qui repudiandae voluptatibus autem corporis, modi, ea cumque iste excepturi nemo ipsa.
-                        Cum molestias nulla magni officia reprehenderit, nemo, cupiditate sunt doloremque fugiat, voluptatibus vero! Eligendi perferendis quo nisi enim atque unde tempore, debitis temporibus id adipisci modi quod impedit nam minima!
-                        In asperiores optio nesciunt quod assumenda corporis error magnam debitis, natus quo, expedita sit. Itaque numquam alias facere voluptas, consectetur error, molestias temporibus ipsam modi eligendi at inventore quo voluptatibus!
-                    </p>
-                </section>
-            <h2>Sus beneficios</h2>
-                <section class="parrafos">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, id fuga minima hic nam beatae vel quibusdam, laudantium deleniti magnam necessitatibus ratione! Modi quos nesciunt dolorum doloribus, quibusdam aperiam veniam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi delectus aut aliquam doloremque neque exercitationem veniam, aliquid rem deserunt commodi. Consectetur veniam, ad omnis neque velit fugit ratione ea!
-                        Minima placeat officiis, doloremque rerum iusto ullam illum eligendi eveniet ipsum id neque, porro praesentium labore fugit expedita quibusdam sit asperiores ex soluta. Earum maiores provident reiciendis nobis ipsa eius!
-                        Illum omnis dolore excepturi? Quo expedita, earum asperiores perspiciatis non sed doloribus provident unde magni velit corporis placeat impedit, minus maiores possimus officia illo porro nostrum fugiat ad a sint.
-                    </p>
-                    <br>
-                    <ul class="listaBeneficios">
-                        <li>Betaglucanos</li>
-                        <li>Triterpenos</li>
-                        <li>Proteínas</li>
-                        <li>Bajo sodio</li>
-                    </ul>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                </section>
-        </main>
-        <footer>
-            <div class="footer">
-                <p class="copyright">Todos los derechos reservados</p>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Valhalla Elixirs</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../assests/imagenes/logo1.png" alt="Logo Valhalla" width="50" height="50" class="d-inline-block align-text-top">
+                Valhalla<br>Elixirs
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              <a class="nav-link active" aria-current="page" href="#">Info</a>
+              <a class="nav-link" href="./productos.html">Productos</a>
+              <a class="nav-link" href="./faqs.html">FAQs</a>
+              <a class="nav-link" href="./contacto.html">Contactos</a>
             </div>
-        </footer>
-        
-    </body>
-    </html>
+          </div>
+        </div>
+      </nav>
+    <h1>Info</h1>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,68 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilos.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
     <title>Valhalla Elixirs</title>
-</head>
-<body>
-        <header> <!--El header quiero que sea menos alto. Supongo que con flex y grid lo soluciono ya que puedo hacer
-            que se superpongan los componentes.-->
-            <div class="divBotonesCarrito">
-            <ul class="carrito">
-                <li><a href=""><img src="./assests/imagenes/cart.png" alt="Carrito"></a></li>
-                <li><a href=""><img src="./assests/imagenes/lupa.png" alt="Búsqueda"></a></li>
-                <li><a href=""><img src="./assests/imagenes/perfil.png" alt="Perfil"></a></li>
-            </ul>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assests/imagenes/logo1.png" alt="Logo Valhalla" width="50" height="50" class="d-inline-block align-text-top">
+                Valhalla<br>Elixirs
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav justify-content-around w-100">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              <a class="nav-link" href="./pages/info.html">Info</a>
+              <a class="nav-link" href="./pages/productos.html">Productos</a>
+              <a class="nav-link" href="./pages/faqs.html">FAQs</a>
+              <a class="nav-link" href="./pages/contacto.html">Contactos</a>
             </div>
-            <div class="divTopMenu">
-            <ul class="topMenu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./pages/info.html">Info</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><img src="./assests/imagenes/logo1.png" alt="Logo"></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/faqs.html">FAQs</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-            </div>
-            </header>
-    <main>
-        <h1>Bienvenidos</h1>
-            <section>
-                <div class="imagenBienvenida">
-                <img src="./assests/imagenes/imgBienvenidos.png" alt="Valhalla">
-                </div>
-            </section>
-            <section class="parrafoBienvenida">
-                <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas iusto quidem consequuntur debitis explicabo laborum veniam beatae tenetur, illum minus soluta saepe voluptate iste architecto, blanditiis, vero aperiam reiciendis alias?
-                Repudiandae, deleniti. Earum consequuntur harum quod labore fuga sit vero libero similique quam nostrum doloribus rem quidem mollitia autem dolorum quae eveniet, doloremque natus illo commodi dolores aspernatur reprehenderit eos?
-                Consectetur ipsum qui voluptate ratione id iusto provident eligendi ipsam libero excepturi rem quod dolorum, velit minima et placeat eum quis aspernatur error voluptas vero, earum ex quisquam debitis. Possimus!
-                Repudiandae possimus dignissimos id dolor autem inventore ipsam neque saepe vero blanditiis sunt veritatis corrupti earum error recusandae deleniti, corporis consectetur aperiam! Doloribus odio sunt molestiae explicabo, provident esse assumenda!
-                <br>
-                Possimus earum dolores nihil repudiandae rem deleniti nobis beatae, cupiditate eaque, fugit libero minus. Voluptas repellat facere explicabo totam fugit molestiae molestias omnis, aspernatur ullam, laborum itaque adipisci non nihil.
-                Repellat eos consequuntur obcaecati nobis nulla, minus, illum quia, architecto pariatur praesentium esse minima laboriosam corrupti vitae est quae ab. Aut corporis eligendi nam quam hic quia harum soluta nemo!
-                Nesciunt, doloremque laudantium fugit reiciendis distinctio rem quis reprehenderit veritatis, placeat dicta corporis! Non nobis ipsam distinctio porro aperiam nostrum amet, eum velit delectus, accusamus dolorum nesciunt. Temporibus, praesentium accusantium.
-                Tenetur provident aspernatur et rem aut enim. Blanditiis quod ducimus dolores voluptatibus harum iusto aperiam vitae repellat illum, at officia obcaecati necessitatibus mollitia tenetur beatae quia rerum! Blanditiis, placeat numquam!
-                Dignissimos similique accusamus debitis eius veniam, commodi minus qui rerum voluptates! Culpa qui eum et molestiae voluptatibus asperiores blanditiis! Consequuntur quis beatae eum dicta ab asperiores optio, at quidem facilis?
-                Eligendi consequatur fugiat mollitia aperiam aut natus iste nam at perspiciatis commodi beatae consequuntur, accusamus corporis! Officia magni facilis nam exercitationem distinctio, officiis eaque. Eligendi, iure. Aperiam nesciunt quasi error? 
-                </p>
-            </section>
-               
-    </main>
-        <ul class="redes">
-            <li><a href="https://www.facebook.com/federiconerviani/" target="_blank"><img src="./assests/imagenes/facebook-icon-18x18.png" alt="Facebook"></a></li>
-            <li><a href="https://www.instagram.com/federiconerviani/" target="_blank"><img src="./assests/imagenes/instagram-icon-18x18.png" alt="Instagram"></a></li>
-            <li><a href="https://twitter.com/" target="_blank"><img src="./assests/imagenes/twitter-icon-18x18.png" alt="Twitter"></a></li>
-        </ul>
-    <footer>
-        <div class="footer">
-            <p class="copyright">Todos los derechos reservados</p>
+          </div>
         </div>
-    </footer>
-    
-</body>
+      </nav>
+            <h1 class="ms-4">Bienvenidos</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-6 col-lg-offset-4 text-center pt-4">
+                        <img class="img-thumbnail" src="./assests/imagenes/imgBienvenidos.png" alt="Valhalla">
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-8 col-offset-1 text-center pt-5">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore debitis quis totam labore consequuntur numquam, consequatur harum ut eligendi nihil veniam tempore consectetur, ipsa perspiciatis? Ipsum, similique dolorem? Labore.
+                        Beatae, accusamus amet! Nam error molestiae earum ex neque blanditiis ab quis, quos facere, ipsam, nesciunt quasi reprehenderit nemo doloremque magnam itaque modi mollitia amet? Repellendus iusto placeat aliquam assumenda.
+                        Voluptatibus adipisci, culpa, quam minus, commodi aperiam quo recusandae voluptatum animi rerum sit iure suscipit a atque odit quibusdam accusantium saepe sequi perspiciatis repudiandae fuga temporibus! Quas natus doloribus nihil.
+                        Dolorum possimus a esse quibusdam perferendis ipsum fugiat recusandae mollitia ad id atque delectus rem magnam officia, similique maiores veniam ex sed minima eos praesentium. Optio beatae rerum quo atque!
+                        Sunt sed nisi culpa ad modi doloremque sit ut odit suscipit non! Alias quod recusandae molestias. Voluptates non aperiam, ratione voluptate nobis labore ut ex sequi est perferendis, voluptas aliquid?
+                        Laboriosam aperiam asperiores assumenda quisquam iste quos quam obcaecati, consequatur repellat non voluptatum quod ipsa repudiandae hic maxime error accusamus similique nisi dignissimos voluptatem dolor omnis tempora? Corrupti, ex quaerat.
+                        Beatae nostrum quidem obcaecati. Repudiandae blanditiis aliquam mollitia adipisci, illo ratione cum amet voluptate expedita, modi fugit eum! Blanditiis quas incidunt dolores! Culpa tempore alias ex! Quam itaque voluptatum voluptas.
+                        Eveniet dicta sed repellat et saepe provident delectus cum quam repudiandae similique labore, enim earum nam laudantium quasi officiis consectetur? Porro cupiditate deserunt quidem sed, ad perspiciatis quibusdam animi facilis!
+                        Maxime tempora, ipsum eos exercitationem odio aliquam assumenda adipisci tenetur nobis voluptates officiis facere quod eius, alias, itaque labore officia. Autem, placeat vel? Fuga architecto, adipisci harum perspiciatis a dolore?
+                        Fugiat, nostrum voluptate iste quibusdam corrupti reiciendis tempora dolorum non. Reprehenderit, quo suscipit molestiae tempora deserunt saepe ratione ipsum libero officia sit, unde modi minima, beatae repudiandae recusandae non minus.</p> <!--Poner texto de bienvenida-->
+                    </div>
+                    <div class="col"></div>
+
+                </div>
+
+            </div>
+        </div>
+
+      </div>
+      <div class="container float-start">
+        <div class="row">
+            <div class="col">
+                <div>
+                  <ul>
+                      <li>Insta</li>
+                      <li>Twitter</li>
+                      <li>Facebook</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+      <footer>
+        <div class=bg-color-blue >
+
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
 </html>

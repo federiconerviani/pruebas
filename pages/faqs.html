@@ -1,66 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Valhalla Elixirs - Info</title>
-</head>
-<body>
-        <header><!--El header quiero que sea menos alto. Supongo que con flex y grid lo soluciono ya que puedo hacer
-            que se superpongan los componentes.-->
-            <div class="divBotonesCarrito">
-            <ul class="carrito">
-                <li><a href=""><img src="../assests/imagenes/cart.png" alt="Carrito"></a></li>
-                <li><a href=""><img src="../assests/imagenes/lupa.png" alt="Búsqueda"></a></li>
-                <li><a href=""><img src="../assests/imagenes/perfil.png" alt="Perfil"></a></li>
-            </ul>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Valhalla Elixirs</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../assests/imagenes/logo1.png" alt="Logo Valhalla" width="50" height="50" class="d-inline-block align-text-top">
+                Valhalla<br>Elixirs
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="../index.html">Inicio</a>
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              <a class="nav-link" href="./info.html">Info</a>
+              <a class="nav-link" href="./productos.html">Productos</a>
+              <a class="nav-link active" aria-current="page" href="#">FAQs</a>
+              <a class="nav-link" href="./contacto.html">Contactos</a>
             </div>
-            <div class="divTopMenu">
-            <ul class="topMenu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./info.html">Info</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><img src="../assests/imagenes/logo1.png" alt="Logo"></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-            </div>
-            </header>
-            <ul class="redes">
-                <li><a href="https://www.facebook.com/federiconerviani/" target="_blank"><img src="../assests/imagenes/facebook-icon-18x18.png" alt="Facebook"></a></li>
-                <li><a href="https://www.instagram.com/federiconerviani/" target="_blank"><img src="../assests/imagenes/instagram-icon-18x18.png" alt="Instagram"></a></li>
-                <li><a href="https://twitter.com/" target="_blank"><img src="../assests/imagenes/twitter-icon-18x18.png" alt="Twitter"></a></li>
-            </ul>
-        <main>
-            <h1>Preguntas frecuentes</h1>
-            <section>
-                <ol class="listaFaqs"> <!--En vez de una lista quisiera poner un acordion-->
-                    <li>
-                        <h3>¿Cuál es la dosis recomendada?</h3> <!--No me toma el h3 o h4-->
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse odit facilis repudiandae ipsam temporibus nesciunt placeat eaque adipisci maxime minus? Quae ab magni officiis explicabo odit labore amet cupiditate aperiam.</p>
-                    </li>
-                    <li>
-                        <h3>Existe peligro al tomar demasiado</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione blanditiis qui, debitis enim libero quis alias praesentium nam minima suscipit eaque, voluptatum ullam consequuntur adipisci provident quod! Sint, provident ducimus.</p>
-                    <li>
-                        <h3>Tiene efectos secundarios</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolores quod consequuntur quae voluptate quos, rerum rem expedita alias aperiam praesentium natus? Atque optio quo quidem ducimus natus, aliquam fuga!</p>
-                    </li>
-                    <li>
-                        <h3>¿Se usan quiímicos en los productos de Valhalla Elixirs</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates quam accusamus eveniet veniam repudiandae laboriosam? At minus delectus quidem eum, ipsa, velit maiores eos amet dolorem quaerat laudantium in est?</p>
-                    </li>
-                </ol>
-            </section>
-        </main>
-            <footer>
-                <div class="footer">
-                    <p class="copyright">Todos los derechos reservados</p>
-                </div>
-            </footer>
-            
-        </body>
-        </html>
+          </div>
+        </div>
+      </nav>
+    <h1>FAQs</h1>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
