@@ -1,42 +1,55 @@
-.fuentelogo{
+.fuenteLogo{
     font-size: 1.5rem;
     font-family: 'Ms Madi';
     font-style: italic;
+}
+.fuenteLogoInicio{
     animation-name: aparecer;
     animation-duration: 11s;
     animation-iteration-count: 1;
 }
+
 .bgNavegador{
     background-color: rgba(148, 18, 6, 0.962);
 }
+
 .bgBody{
     background-color: rgba(148, 18, 6, 0.855);
 }
+
 h1{
     margin-left: 1rem;
     font-family: franklin gothic medium;
     font-style: italic;
+}
+
+.h1Inicio{
     animation-name: aparecer;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count: 1;
 }
-img{
+
+.imgInicio{
     animation-name: aparecer;
     animation-duration: 9s;
     animation-iteration-count: 1;
 }
-.textoAni {
+
+.textoInicio {
     animation-name: aparecer;
     animation-duration: 11s;
     animation-iteration-count: 1;
 }
+
 a{
     font-family: franklin gothic medium;
     font-size: 1.25rem;
 }
+
 a:hover:not(.active):not(.navbar-brand){
     text-shadow: 0.8px 0.8px 0.8px;
 }
+
 @keyframes aparecer {
     0% {
         opacity: 0;
