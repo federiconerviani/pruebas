@@ -50,6 +50,12 @@ a:hover:not(.active):not(.navbar-brand){
     text-shadow: 0.8px 0.8px 0.8px;
 }
 
+.tarjetas {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
 footer {
     color: rgba(250, 235, 215, 0.323);
     margin-right: auto;
