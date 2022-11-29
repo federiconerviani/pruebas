@@ -77,3 +77,18 @@ footer {
         opacity: 1;
     }
 }
+
+@media (max-width: 576px) {
+    .just-der-sm {
+        text-align: right;
+    }
+    .textoInicio {
+        max-width: 90%;
+    }
+    .imgInicio {
+        max-width: 90%;
+    }
+    .ftr-sz-sm {
+        font-size: x-small;
+    }
+}
